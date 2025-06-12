@@ -1,0 +1,101 @@
+# YourPods 專案依賴套件
+# 安裝指令: pip install -r requirements.txt
+
+# ===== 核心依賴 =====
+
+# 異步HTTP客戶端 (用於並行API調用)
+aiohttp>=3.8.0
+
+# Firecrawl Python SDK (網頁抓取服務)
+firecrawl-py>=0.0.16
+
+# Google Generative AI (Gemini 2.5 Pro)
+google-generativeai>=0.3.0
+
+# 環境變數管理
+python-dotenv>=1.0.0
+
+# ===== 資料處理 =====
+
+# 資料分析和處理
+pandas>=1.5.0
+numpy>=1.21.0
+
+# JSON處理
+simplejson>=3.17.0
+
+# ===== 時間和日期處理 =====
+
+# 時區處理 (美國市場時間)
+pytz>=2022.1
+python-dateutil>=2.8.0
+
+# ===== 網路和API =====
+
+# HTTP請求庫 (備用)
+requests>=2.28.0
+
+# 網頁解析 (備用解析器)
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# ===== Firebase整合 =====
+
+# Firebase Admin SDK (如果使用Firebase功能)
+firebase-admin>=6.0.0
+
+# Google Cloud Storage (如果使用音訊儲存)
+google-cloud-storage>=2.10.0
+
+# ===== 音訊處理 (未來功能) =====
+
+# 文字轉語音 (TTS)
+gtts>=2.3.0
+pydub>=0.25.0
+
+# ===== 開發和測試工具 =====
+
+# 測試框架
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# 程式碼格式化
+black>=22.0.0
+isort>=5.10.0
+
+# 程式碼檢查
+flake8>=5.0.0
+mypy>=1.0.0
+
+# ===== 監控和日誌 =====
+
+# 結構化日誌
+structlog>=22.0.0
+
+# 系統監控
+psutil>=5.9.0
+
+# ===== 生產環境工具 =====
+
+# WSGI服務器 (如果需要Web界面)
+gunicorn>=20.1.0
+
+# 環境配置
+python-decouple>=3.6
+
+# ===== 可選依賴 (根據需要安裝) =====
+
+# 機器學習 (如果需要進階分析)
+# scikit-learn>=1.1.0
+# transformers>=4.20.0
+
+# 資料視覺化 (如果需要圖表)
+# matplotlib>=3.5.0
+# plotly>=5.10.0
+
+# 加密和安全
+# cryptography>=3.4.0
+
+# 資料庫 (如果需要持久化儲存)
+# sqlalchemy>=1.4.0
+# alembic>=1.8.0
